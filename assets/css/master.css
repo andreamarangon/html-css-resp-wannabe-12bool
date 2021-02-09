@@ -53,8 +53,8 @@ img {
 @media all and (min-width: 992px) {
   .container {
     /* width: 992px; */
-    margin-left: auto;
-    margin-right: auto;
+    /* margin-left: auto;
+    margin-right: auto; */
     margin-top: 100px;
   }
   .row::after {
@@ -77,5 +77,20 @@ img {
 
   #why img {
     height: 260px;
+    margin-top: 80px;
   }
+
+  #why.container .col-xs-12 {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  #lezioni img, #steps img {
+    margin-top: 0;
+  }
+
+  h3 {
+    padding: 10px;
+  }
+
 }
