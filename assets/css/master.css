@@ -1,0 +1,45 @@
+.container {
+  padding: 1em 0;
+}
+
+img {
+  height: 200px;
+}
+
+#lezioni img {
+  /* per centrare orizzontalmente */
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#lezioni img, #steps img {
+  margin-top: 1em;
+}
+
+
+#lezioni {
+  text-align: center;
+}
+
+#lezioni.container, #why.container {
+    background-color: #F2F2CD;
+}
+
+#steps {
+  text-align: center;
+}
+
+#why {
+  text-align: center;
+}
+
+#why img {
+  background-color: #428bca;
+  border-radius: 50%;
+  padding: 30px
+}
+
+#why .container > .col-xs-12 {
+  margin-top: 1em;
+}
